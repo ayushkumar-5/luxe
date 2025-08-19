@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Aurelia Luxe Design System - Premium Dark Theme */
+    --background: 222 25% 6%;              /* Deep midnight */
+    --foreground: 35 15% 96%;              /* Warm cream */
+
+    --card: 222 20% 8%;                    /* Slightly lighter midnight */
+    --card-foreground: 35 15% 96%;
+
+    --popover: 222 20% 8%;
+    --popover-foreground: 35 15% 96%;
+
+    --primary: 45 65% 48%;                 /* Luxe gold */
+    --primary-foreground: 222 25% 6%;
+
+    --secondary: 260 15% 15%;              /* Velvet plum */
+    --secondary-foreground: 35 15% 96%;
+
+    --muted: 222 15% 12%;                  /* Subtle dark */
+    --muted-foreground: 35 8% 70%;
+
+    --accent: 45 65% 48%;                  /* Gold accent */
+    --accent-foreground: 222 25% 6%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 35 15% 96%;
+
+    --border: 222 15% 18%;                 /* Subtle borders */
+    --input: 222 15% 18%;
+    --ring: 45 65% 48%;
+
+    --radius: 0.5rem;
+
+    /* Premium gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(45, 65%, 48%), hsl(45, 80%, 65%));
+    --gradient-midnight: linear-gradient(135deg, hsl(222, 25%, 6%), hsl(260, 15%, 15%));
+    --gradient-hero: linear-gradient(180deg, hsl(222, 25%, 6%) 0%, hsl(260, 15%, 15%) 100%);
+
+    /* Elegant shadows */
+    --shadow-gold: 0 10px 40px -10px hsl(45, 65%, 48% / 0.3);
+    --shadow-elegant: 0 20px 60px -20px hsl(222, 25%, 6% / 0.8);
+    --shadow-card: 0 8px 32px -8px hsl(222, 25%, 6% / 0.6);
+
+    /* Typography */
+    --font-serif: 'Playfair Display', serif;
+    --font-sans: 'Inter', sans-serif;
+
+    /* Animations */
+    --transition-luxury: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 222 20% 8%;
+    --sidebar-foreground: 35 15% 96%;
+    --sidebar-primary: 45 65% 48%;
+    --sidebar-primary-foreground: 222 25% 6%;
+    --sidebar-accent: 260 15% 15%;
+    --sidebar-accent-foreground: 35 15% 96%;
+    --sidebar-border: 222 15% 18%;
+    --sidebar-ring: 45 65% 48%;
+  }
+
+  /* Custom component classes */
+  .luxury-gradient {
+    background: var(--gradient-gold);
+  }
+
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .shadow-luxury {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .transition-luxury {
+    transition: var(--transition-luxury);
+  }
+
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
