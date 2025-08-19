@@ -1,74 +1,128 @@
-# Welcome to your Lovable project
+Got it ✅ I’ll create a polished **README.md** for your classy perfume e-commerce site with the Spline animation.
+This will look professional and is ready to be dropped into your project repo.
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/876b436e-d358-4101-af3d-d9c270fae818
 
-## How can I edit this code?
+# 🌸 Luxe — Classy Perfume E-Commerce Website
 
-There are several ways of editing your application.
+A premium **perfume e-commerce platform** designed to feel luxurious, modern, and immersive.  
+Built with **React / Next.js + Tailwind CSS**, featuring a **Spline 3D animated hero** section, elegant product pages, and smooth shopping flow.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/876b436e-d358-4101-af3d-d9c270fae818) and start prompting.
+## ✨ Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🎥 **Spline 3D Hero Animation**  
+  Immersive fullscreen 3D animation powered by [Spline](https://spline.design/).  
 
-**Use your preferred IDE**
+- 🛍️ **Perfume Marketplace**  
+  - Browse by scent family: Floral, Woody, Oriental, Citrus.  
+  - Product detail pages with scent notes, reviews, and 3D previews.  
+  - Related products carousel (“Complete the Ritual”).  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 💳 **Cart & Checkout**  
+  - Add to cart with smooth animations.  
+  - Stripe integration for secure payments.  
+  - One-page minimal checkout.  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 👤 **User Accounts**  
+  - Wishlist, order history, subscriptions.  
+  - Firebase Authentication (Email + OAuth).  
 
-Follow these steps:
+- 📖 **Fragrance Journal**  
+  Editorial blog for guides, gifting tips, and brand stories.  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- 📱 **Responsive & Accessible**  
+  Mobile-first design, keyboard-friendly, and optimized performance.  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🎨 Design Guidelines
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- **Colors**  
+  - Background: `#0f0b10` (Midnight Black)  
+  - Accent: `#b88b3b` (Gold)  
+  - Text: `#f5f0ea` (Cream)  
+  - Deep Plum Highlights  
+
+- **Typography**  
+  - Headings: *Playfair Display / Didot* (serif, classy)  
+  - Body/UI: *Inter / Helvetica Neue* (clean sans-serif)  
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend:** React / Next.js, Tailwind CSS  
+- **3D Animations:** [Spline](https://spline.design/)  
+- **Backend:** Node.js + Next.js API routes  
+- **Database / CMS:** Firebase Firestore or Sanity CMS  
+- **Auth:** Firebase Authentication  
+- **Payments:** Stripe  
+- **Hosting:** Vercel / Netlify  
+
+---
+
+## 🔧 Installation & Setup
+
+```bash
+# Clone repo
+git clone https://github.com/ayushkumar-5/luxe.git
+
+# Enter directory
+cd aurelia-luxe
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
+
+# Build for production
+npm run build
+npm start
+````
+
+---
+
+## 🎥 Spline Hero Integration
+
+The homepage hero includes a Spline animation embed:
+
+```html
+<section id="hero" style="height:100vh;position:relative;overflow:hidden;">
+  <iframe 
+    src="https://my.spline.design/aurelialuxeanimation-DFkLHu6Glhm1XCmGfEIjIzoL/" 
+    frameborder="0" 
+    width="100%" 
+    height="100%" 
+    style="border:0;"
+    allow="fullscreen; vr; autoplay">
+  </iframe>
+</section>
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📌 Roadmap
 
-**Use GitHub Codespaces**
+* [ ] Add product quiz (*Find Your Signature Scent*).
+* [ ] Enable subscriptions & refill plans.
+* [ ] Implement wishlist & loyalty rewards.
+* [ ] Add AI-powered scent recommendation engine.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📜 License
 
-## How can I deploy this project?
+This project is licensed under the **MIT License** — feel free to use and adapt.
 
-Simply open [Lovable](https://lovable.dev/projects/876b436e-d358-4101-af3d-d9c270fae818) and click on Share -> Publish.
+```
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-# luxe
+Do you want me to also create a **starter `index.jsx` file with Tailwind + your Spline embed already coded**, so you can just run `npm run dev` and see it live?
+```
