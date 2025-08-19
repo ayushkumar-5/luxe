@@ -1,14 +1,15 @@
-Got it ✅ I’ll create a polished **README.md** for your classy perfume e-commerce site with the Spline animation.
-This will look professional and is ready to be dropped into your project repo.
-
----
-
 
 # 🌸 Luxe — Classy Perfume E-Commerce Website
 
 A premium **perfume e-commerce platform** designed to feel luxurious, modern, and immersive.  
 Built with **React / Next.js + Tailwind CSS**, featuring a **Spline 3D animated hero** section, elegant product pages, and smooth shopping flow.
 
+## 🌐 Live Demo
+
+👉 [Visit the site](https://luxe-livid.vercel.app/)  
+<img width="1440" height="742" alt="image" src="https://github.com/user-attachments/assets/9dd8d8f2-c250-48e1-8b19-3149040b4fb1" />
+
+---
 ---
 
 ## ✨ Features
